@@ -1,0 +1,213 @@
+name,technologies,topics,category
+3DTK,c/c++ | cmake | opencv | ros | boost, 3d | point clouds | slam | robotics | mapping,Science and Medicine
+52° North Initiative for Geospatial Open Source Software GmbH,javascript | java | spring | r | bigdata,geoinformatics | geoprocessing | remote sensing | geostatistics | sensor web,Science and Medicine
+AerospaceResearch.net,python | c/c++ | vhdl | boinc | java,cubesats | space applications | software defined radio | distributed computing | simulations,Science and Medicine
+aimacode,python | java | javascript | ai | jupyter,artificial intelligence | machine learning | education,Programming Languages and Development Tools
+Amahi,rubyonrails | golang | swift | javascript | android,media server | storage server | streaming |  web apps | front-end,Operating Systems
+AOSSIE - Australian Open Source Software Innovation and Education,scala | isabelleproofassistant | browserextension | javascript/html5/css3 | android/ios,logic | electronic voting | philosophy | environment | natural language processing,Web
+Apache Software Foundation,c | java | erlang,other | cloud | libraries | big data,Other
+Apertium,c++ | python | xml | fsts,machine translation | language technology | grammar | natural language processing,Other
+Apertus Association,fpga | embedded | linux | c/c++ | vhdl,vision | camera | cinematography | digital imaging | photography,Graphics / Video / Audio / Virtual Reality
+appleseedhq,c/c++ | qt,graphics | rendering | physics | mathematics | high performance,Graphics / Video / Audio / Virtual Reality
+ArduPilot,drones | python | linux | c/c++ | robotics,vision | robotics | embedded systems | real-time os | drones,End User Applications
+BeagleBoard.org Foundation,linux | gcc | real-time | physicalcomputing | iot,robotics | ros | audio | iot | interfaces,Programming Languages and Development Tools
+Beam Community,erlang | xmpp,distributed computing | real time | distributed databases | iot | instant messaging,Programming Languages and Development Tools
+BeeWare Project,python | ios | android | javascript | java,mobile | cross desktop | app development,Programming Languages and Development Tools
+Berkman Klein Center for Internet & Society at Harvard University,rubyonrails | meteor.js | elasticsearch | javascript | elk, web |  research | education | internet freedom | internet censorship,Other
+Blender Foundation,c | c++ | python | opengl | opencl,animation | rendering | 3d | games | simulation,Graphics / Video / Audio / Virtual Reality
+Boost C++ Libraries,c++11 | c++14 | c++ | c++17,c++ development | c++ tools | c++ standardization | software engineering,Programming Languages and Development Tools
+Boston University / XIA,xia | linuxkernel | c | advanceddatastructures | ddos,computer networking | future internet architecture | research,Cloud
+BRL-CAD,c/c++ | qt | opengl | opencl | tcl/tk,cad | geometry | 3d | graphics user interface | software visualization,Graphics / Video / Audio / Virtual Reality
+Canadian Centre for Computational Genomics,r | perl | awk | bash | python,bioinformatics | data science | next-generation sequencing | visualization | statistics,Science and Medicine
+Catrobat,java | android | ios | espresso,programming language | app development | education | scratch,Programming Languages and Development Tools
+CCExtractor Development,c | python | arduino | node.js | c#,media | subtitles | video | accesibility | language,Graphics / Video / Audio / Virtual Reality
+Center for Research In Open Source Software (CROSS) at UC Santa Cruz,ceph | hadoop | c++ | javascript | python,distributed networks | reproducibility | storage systems | big data | opendata,Other
+CERN-HSF,c/c++ | python | dataanalysis | machinelearning | parallelization,particle physics | high-energy physics | physics | big data | machine learning,Science and Medicine
+CGAL Project,c++ | github | git,computational geometry | geometry | mesh processing | arrangement | webhook,Science and Medicine
+CHAOSS: Community Health Analytics Open Source Software,python3 | javascript,data visualization | visualization | machine learning,End User Applications
+Checker Framework,java,programmer productivity | software engineering | verification | bug finding,Programming Languages and Development Tools
+CiviCRM LLC,php | mysql | angularjs | d3.js,civil society | contacts&calendar sync,End User Applications
+Classical Language Toolkit,python | javascript,natural language processing |  web,Other
+"CLiPS, University of Antwerp",python | javascript | mongodb,natural language processing | machine learning | artificial intelligence | text analytics | text generation,Data and Databases
+Cloud Native Computing Foundation (CNCF),kubernetes | prometheus | grpc | docker | golang,cloud | container | monitoring | logging,Cloud
+CloudCV,machinelearning | deeplearning | computervision | artificialintelligence | cloud,python |  tensorflow |  django |  angularjs |  react,Cloud
+coala,django | python3 | antlr | emberjs | reactjs,code analysis | chatops | devops | language server | dependency management,Programming Languages and Development Tools
+Computational Biology @ University of Nebraska-Lincoln,javascript | webgl | reactjs | flask,biological networks | bioinformatics | network simulation | computational biology | omics data,Science and Medicine
+Conversations.im,java | android | xmpp | gtk | javascript,instant messaging | mobile | desktop | web,Social / Communications
+Cuneiform Digital Library Initiative,python | mariadb | rdf | php | nltk,natural language processing | machine translation | information retrieval | linguistics | semantic web,Data and Databases
+DBpedia,rdf | scala | sparql,knowledge graph | data extraction | data analytics,Data and Databases
+Debian Project,javascript | ruby | java | python | c/c++,operating system | packaging | applications | community | communications,Operating Systems
+Developers Italia,python | ruby | node.js | java | c/c++,government | open data | identity | data-science,Other
+Digital Impact Alliance,android | java | php | python | javascript,humanitarian | international | social good | charity | health,End User Applications
+Django Software Foundation,python | django,web development | web | web applications,Web
+Drupal,web | webdevelopment | contentmanagementsystem | cms | object-oriented,php | symfony | sql | javascript | drupal 8,Web
+Earth Science Information Partners (ESIP),kubernetes | dask | xarray | python | javascript,earth data | semantics | discovery | data visualization | earth science,Data and Databases
+Elastic,java | golang | node.js | react | jruby,data analytics | data visualization | monitoring | search | logging,Data and Databases
+Eta,haskell | jvm | java,functional-programming | runtime systems | compilers | programming-tools,Programming Languages and Development Tools
+Fedora Project,linux | python | git | postgresql | ansible,linux distribution | desktop | community | web development | server,Operating Systems
+FFmpeg,c | asm | git,audio | video | multimedia | subtitles,Graphics / Video / Audio / Virtual Reality
+FOSSASIA,java | javascript | python | android | artificialintelligence,web development | artificial intelligence | personal assistants,Web
+FOSSology,php | postgresql | lamp | linux | c/c++,licensing | open source | license compliance | compliance | spdx,Other
+Free and Open Source Silicon Foundation,fpga | verilog | c | chisel | synthesis,open hardware | debugging | eda tools | web community,Other
+Free UK Genealogy,mongodb | rubyonrails | mysql | python | css/html,ai | machine learning |  ui/ux |  web apps | open data,Data and Databases
+FreeBSD,c/c++ | llvm | shellscript | assembly | make,virtualization |  kernel | cloud | embedded systems | security,Operating Systems
+FreeType,c | gnumake | gnuautotools | python | fonts,fonts | truetype | opentype | graphics | rendering,Graphics / Video / Audio / Virtual Reality
+freifunk,openwrt | javascript | html | c | python,network | wireless | web applications |  embedded systems | software-defined networking,Social / Communications
+"Genes, Genomes and Variation",perl | mysql | javascript,data visualization | genomics | database | bioinformatics,Science and Medicine
+GENIVI Alliance,yocto | c/c++ | java,automotive | diagnostics | functional safety | middleware,Operating Systems
+Gentoo Foundation,shellscript | bash | c/c++ | python | linux,operating systems | package management | embedded systems | security | init systems,Operating Systems
+GFOSS - Open Technologies Alliance,python3 | php/javascript/html | css/html | java | c/c++,python | gtk | java jsp | c++ tools | javascript,Other
+Git,c | shellscript | git,version control | dvcs,Programming Languages and Development Tools
+Global Alliance for Genomics and Health,java | python | cloud | c/c++ | mongodb,genomics | genetics | standards | bioinformatics | web,Science and Medicine
+GNOME,c | python | javascript | gtk+ | gobject,desktop | applications | end user applications | operating system,Operating Systems
+GNSS-SDR,c/c++ | gnss | c++11 | c++14,gnss | navigation | digital signal processing | software defined radio | communications engineering,Science and Medicine
+GNU Compiler Collection (GCC),c++ | c | openmp,compilers,Programming Languages and Development Tools
+GNU Octave,c++ | hg,mathematics | numerical computation | matlab | scientific computing | numerical methods,Programming Languages and Development Tools
+GNU Project,c | lisp | python,free software | operating system,Operating Systems
+GNU Radio,c++ | python | simd | qt,software defined radio | real-time | communications engineering | cybersecurity | dsp,End User Applications
+Godot Engine,c++ | cpp | opengl | github | crossplatform,game engine | gaming | game development | rendering | virtual reality,Graphics / Video / Audio / Virtual Reality
+gRPC,grpc | microservices | distributedsystems | cloud,microservices | communications | distributed networks | infrastructure | middleware,Cloud
+Haiku,c++ | webkit | ffmpeg | posix | bsdunix,desktop | network | kernel | graphics | media,Operating Systems
+Haskell.org,haskell,functional-programming | programming languages,Programming Languages and Development Tools
+Homebrew,ruby | git | macos | rspec | bash,package managers | macos | terminal applications | github,Programming Languages and Development Tools
+INCF,python | c/c++ | javascript | cuda | xml,neuroscience | big data | brain simulation | brain imaging | visualization,Science and Medicine
+Inclusive Design Institute,javascript | html | css | node.js | php,accessibility | inclusivity | web | web applications | web development,End User Applications
+Inkscape,svg | css | c++11 | python | gtk+,graphics | web | geometry,Graphics / Video / Audio / Virtual Reality
+Inria Foundation,c/c++ | qt | webassembly | asm | communicationprotocol,medical simulation | medical research | physics | real-time | scientific computing,Science and Medicine
+Institute for Artificial Intelligence,c++ | python | ros | unrealengine | lisp,artificial intelligence | robotics | simulation | unreal engine | perception,Science and Medicine
+Intel Media And Audio For Linux,video | codecs | hardwareacceleration | va-api | c,video decode | video encode | video post processing | hardware accelerated media processing | video apis,Graphics / Video / Audio / Virtual Reality
+InterMine,postgresql | java | javascript | python | clojure,biology | genomics | data science | open science | bioinformatics,Science and Medicine
+Internet Archive,pthon | javascript,web extensions | voice apps | web archiving,Web
+Internet Systems Consortium,dhcp | c/c++ | mysql | cassandra | rest,networking | stateful | infrastructure | ipv6,Operating Systems
+JBoss Community,java | android | ios | opentracing | apachekafka,testing | cloud | mobile development | javaee | microservices,Programming Languages and Development Tools
+JdeRobot - Universidad Rey Juan Carlos,ros | python | c++ | gazebo | opencv,robotics | computer vision | robot simulator | teaching,Other
+Jenkins project,java | groovy | javascript,devops | development tools | continuous integration,Programming Languages and Development Tools
+JGraphT,java,graphs | algorithms | data structures | mathematics | network analysis,Programming Languages and Development Tools
+Jitsi,java | javascript | webrtc | react | reactnative,real time communications | web | video conferencing | networking | multimedia,Social / Communications
+Joomla!,php | javascript | mysql | html5/css3 | cms,web | web development | web applications | cms | object-oriented,Web
+JSK Robotics Laboratory / The University of Tokyo,ros,robotics,Science and Medicine
+KDE Community,qt | c/c++ | qml,applications | desktop environment,End User Applications
+Kiwix,android | java | c++ | python | qt,offline | android,End User Applications
+LabLua,lua | céu,programming languages,Programming Languages and Development Tools
+languagetool.org,java | javascript | machinelearning | ai | tensorflow,artificial intelligence | language | edtech | education | nlp,End User Applications
+LEAP Encryption Access Project,python | twisted | javascript | openvpn | gnupg,e2e | mail | vpn | encryption,End User Applications
+LibreHealth,java | php | javascript | mysql | webcomponents, web apps | health | ictd | medicine | global health,Science and Medicine
+LibreOffice,c++ | java | python,end user applications | office suite | desktop application | android,End User Applications
+libvirt,hypervisor | kvm | xen | lxc,virtualization | virtual machine | container,Cloud
+LLVM Compiler Infrastructure,llvm,compilers | compiler api,Programming Languages and Development Tools
+LuaRocks,lua | linux | windows | unix | c,programming language | package manager,Programming Languages and Development Tools
+MariaDB Foundation,mariadb | mysql | c | c++ | java,database | sql,Data and Databases
+Matrix.org,golang | ios | android | python | react,real time communications | team chat | voip | instant messaging | decentralization,Social / Communications
+MetaBrainz Foundation Inc.,python | perl | javascript | postgresql | react,music | metadata | big data | community,Data and Databases
+Metasploit,ruby | postgresql | python | c | assembly,security | penetration testing | offensive security | exploitation,Security
+Mixxx DJ Software,qt | audio | music | real-time | c++,beatdetection | metadata,Graphics / Video / Audio / Virtual Reality
+mlpack,c++,machine learning | deep learning | algorithms | data science,Data and Databases
+Mobile Robot Programming Toolkit (MRPT),c/c++ | cmake | python | webs,robot | ai | computer vision | real-time | slam,Science and Medicine
+Moodle,php | javascript | ionic | sql | angular,education | web applications | e-learning | school system | learning management,Social / Communications
+MovingBlocks,java | opengl | json | blender | github,game | voxel | minecraft | sandbox | modding,End User Applications
+Mozilla,javascript | c++ | rust | python | css,open web | free software | web | browser,Web
+MuseScore,qt | c++11 | cpp | midi,music | music notation | user interface | end user applications | sheet music,Graphics / Video / Audio / Virtual Reality
+National Resource for Network Biology (NRNB),java | javascript | python | html | c/c++,network analysis | biology | data visualization | data modeling | web applications,Science and Medicine
+Neovim,lua | c | vim | javascript | python,text editor | vim | cross platform | tools,Programming Languages and Development Tools
+Netfilter project,linuxkernel | c,firewall | computer networking,Operating Systems
+NumFOCUS,python | julia | r | javascript | c++,statistical computing | machine learning | high performance computing | big data | data visualization,Science and Medicine
+omegaUp.com,php | mysql | python,cs education | education | web community,Web
+Open Bioinformatics Foundation,python | javascript | d | php | c/c++,computational biology | bioinformatics |  web,Science and Medicine
+Open Chemistry,python | c++ | javascript | java | opengl,science | data science | visualization | chemistry,Science and Medicine
+Open Data Kit,android | java,mobile | global development | global health | social good,End User Applications
+Open Food Facts,perl | mongodb | ios | android | machinelearning,computer vision | crowdsourcing | open data | food | health,Science and Medicine
+Open Roberta Lab,java | javascript,education | programming | robotics,Web
+Open Source Robotics Foundation,c/c++ | python | javascript | ros | gazebo,robotics,Programming Languages and Development Tools
+Open States,python | django | react | graphql | postgresql,civic tech | scraping | web | government,Other
+OpenAstronomy,python | julia | c++ | numba,visualization | astronomy | solar physics | orbital mechanics | high-energy astrophysics,Science and Medicine
+OpenCensus,python | java | ruby | node | go,tracing | monitoring | c++ | php,Cloud
+OpenMRS,java | spring | javascript | rest | mysql,open source | medical records | developing countries,Science and Medicine
+OpenSIPS,c | python | mysql | scripting,voip | telephony | real-time-communications | sip,Social / Communications
+OpenStreetMap,postgis | java | ruby | javascript | c/c++,gis | maps | crowdsourcing | geoinformatics,Data and Databases
+openSUSE,rubyonrail | perl | ruby | html/javascript | c/c++, web | qa | packaging |  ui/ux,Operating Systems
+OpenWISP,python | django | javascript | openwrt | linux,wifi | mesh-networks | wireless | networking | web development,Web
+OpnTec,python | javascript | emberjs | cloud | android,open event | event solutions | web,Social / Communications
+Oppia Foundation,angularjs | python | javascript | appengine | css,education | web | interactive | tools | community,Web
+OSGeo,c/c++ | standards | python | sql | database,mapping | gis | geospatial | citizen science | open science,Other
+OW2,java | perl | middleware | bpm | wiki,enterprise information systems | cloud | security | middleware,Other
+OWASP Foundation,java | net | ruby | javascript | python,application security | cloud security | mobile security,Security
+P2PSP.org,python | javascript | webrtc | sockets | c/c++,live streaming | real time | distributed networks | p2p | video,Graphics / Video / Audio / Virtual Reality
+PEcAn Project,javascript | postgresql | php | c | r, scientific visualization |  data science |  climate science | ecosystem models | ecological forecasting,Science and Medicine
+Performance Co-Pilot,python | redis | c | linux | javascript,high performance computing | visualization | web development | kernel | performance,Operating Systems
+phpBB Forum Software,mysql | javascript | html5/css3 | php | symfony,social | communication | collaboration | forum | community,Social / Communications
+phpMyAdmin,php | mysql | cakephp | jquery | javascript,mysql | developer | administrator | web applications | database,Data and Databases
+Plone,python | javascript | html | css | reactjs,communications | collaboration | content management | web,Web
+PMD,java | xml | javacc | antlr | xpath,code analysis | code quality | source code analyzer | linter,Programming Languages and Development Tools
+Pocket Science Lab,android | java | firmware | c | cad,science | education | firmware | school apps,Science and Medicine
+Polly Labs,c/c++ | llvm | polly | isl | ppcg,compilers | polyhedral model,Programming Languages and Development Tools
+PostgreSQL,postgresql | sql | rdbms | ordbms | c,sql | database | big data,Data and Databases
+Probot,javascript | node | github,bot | automation | development tools,Programming Languages and Development Tools
+Public Lab,rubyonrails | javascript | node.js,science | environment | collaboration | community | hardware,Science and Medicine
+Purr Data,javascript | html5/css3 | node.js | c/c++,real-time | audio | dsp | video | data vizualisation,Programming Languages and Development Tools
+Python HYDRA,python | rdf | flask | hydra | json/json-ld,apis | database | functional-programming | semantic web | knowledge graph,Web
+Python Software Foundation,python,programming languages | science,Science and Medicine
+QEMU,c | kvm,emulation | hypervisor | kernel | lowlevel | cloud,Cloud
+Quill.org,ruby | rails | react | javascript | postgresql,education | edtech | machine learning | nlp | web,Web
+R project for statistical computing,r-project | c | c++ | javascript | fortran,data science | visualization | statistics | graphics | machine learning,Programming Languages and Development Tools
+radare,c | cpp | rust | qt,reverse engineering,Security
+ReactOS,c | c++,operating systems | drivers | desktop | kernel | windows,Operating Systems
+Read the Docs,python | sphinx | django | javascript | elasticsearch,docs | web | communications,Programming Languages and Development Tools
+Red Hen Lab,python | scikit-learn | tensorflow | singularity | syntaxnet,multimedia | audio processing | video processing | artificial intelligence | machine learning,Science and Medicine
+RoboComp,c/c++ | python | cmake | openscenegraph | ice-zeroc,robotics | computer vision | simulation,Other
+Rocket.Chat,javascript | ios | android | node | meteor.js,chat | collaboration | machine learning | chatops | bot,Social / Communications
+Rspamd,c | machinelearning | javascript | lua,email | spam filtering | high performance computing,Security
+RTEMS Project,c | python | posix | bsdunix, kernel |  embedded systems |  multicore | iot | real time,Operating Systems
+Ruby,ruby,programming languages,Programming Languages and Development Tools
+Ruby on Rails,ruby | rubyonrails | html,web | web development | web applications,Web
+Ruby Science Foundation,ruby | c | c++ | cuda,visualization | compilers | parallel algorithms | data science | artificial intelligence,Science and Medicine
+Sage Mathematical Software System,python3 | python | cython | c/c++,mathematics | toolbox,Science and Medicine
+Scala,scala | jvm | llvm,compilers | programming-tools | functional-programming | programming-language,Programming Languages and Development Tools
+Scilab,c | c++ | java | scilab,science | mathematics | numerical computation | graphics,End User Applications
+ScummVM,c++ | opengl | sdl | assembly,games | game engines | software preservation,End User Applications
+Seastar,cpp | framework | dpdk | tcp | linux,high performance | tcp | app development | network | framework,Programming Languages and Development Tools
+Software and Computational Systems Lab at LMU Munich,java | python | javascript,software analysis | software verification | benchmarking | smt solver,Programming Languages and Development Tools
+Space @ Virginia Tech,python | javascript | d3 | mysql | mongodb,real time | web | data visualization | data analytics,Science and Medicine
+SPDX,rdf | python | java | json,compliance | open source | licensing,Programming Languages and Development Tools
+Stemformatics,python | javascript | postgresql,web applications | cloud | bioinformatics,Science and Medicine
+STE||AR Group,c++ | cuda | opencv | python | boost,hpc | parallel algorithms | runtime systems | distributed datastructures | asynchronous many task systems,Programming Languages and Development Tools
+Stony Brook University Biomedical Informatics,python | matlab | c++ | javascript,biomedical data science | cancer informatics | deep learning | medical imaging,Science and Medicine
+strace,linux | c | git | shellscript | make,diagnostic | debugging | tracing,Operating Systems
+Streetmix,javascript | react | redux | postgresql | mongodb,smart cities | web | civic tech,End User Applications
+Submitty,python | c++ | databases | web/html/css | php/javascript/ajax,education | privacy/security | data visualization | web,Other
+Sugar Labs,python | javascript | gtk+,education | games | user interface | media | stem,Other
+Sustainable Computing Research Group (SCoRe),android | java | go | node | pyth,iot | web | mobile | machine learning | security,Web
+Swift,c++ | llvm | cmake | swift,compilers | programming languages,Programming Languages and Development Tools
+SymPy,python,mathematics | computer algebra,Science and Medicine
+Systers Community,ios | android | python | rubyonrails | javascript,mobile applications |  web apps | community,Other
+TEAMMATES @ National University of Singapore,java | appengine | javascript,education | teaching | cloud | web applications,Web
+The Center for Connected Learning and Computer-Based Modeling,javascript | scala | html5/css3,simulation | education | programming language | science | academic research,Programming Languages and Development Tools
+The Eclipse Foundation,php | java | xtext | javascript | c/c++,research | industry | internet of things | runtime systems,Other
+The Honeynet Project,python3 | python | golang | c/c++ | machinelearning,honeypots | malware | sandbox | deception | networking,Security
+The Java Pathfinder Team,java | jvm | android | distributedsystems,program analysis | model checking | symbolic execution | test input generation | formal methods,Programming Languages and Development Tools
+The Libreswan Project,c | python | shellscript | qemu,ipsec vpn,Security
+The Linux Foundation,c | c++ | cups | ipp,kernel | printing | wireless | lsb | spdx,Operating Systems
+The MacPorts Project,tcl | html/javascript | frontend | vue.js | react.js,package manager | mac os x | macos | command line | build tools,End User Applications
+The Mifos Initiative,java | android | spring | angularjs | mysql,fintech | financial inclusion | mobile banking | digital financial services | microfinance,End User Applications
+The NetBSD Foundation,c | bsdmake,kernel | userland | unix | packaging | bsd,Operating Systems
+The ns-3 Network Simulator Project,c/c++ | python,networking | research and development | network simulation,Other
+The Processing Foundation,java | javascript | python | android | opengl,creative coding | graphics | design | education | web,Programming Languages and Development Tools
+The Qt Project,c++11 | cpp | qt | qml | opengl,graphics | gis | maps | declarative language,Programming Languages and Development Tools
+The syslog-ng project.,java | c/c++ | bigdata | elasticsearch | rest,logging | log management | message queue | python,Security
+The Vega Visualization Tools by the UW Interactive Data Lab,javascript | typescript | react | d3.js,data visualization | visualization grammar | data science | declarative language | plotting tools,Data and Databases
+The Wine Project,directx | x11 | win32 | opengl | c,compatibility | desktop integration | 3d | directx | opengl,Other
+TimVideos.us,fpga | verilog | python | c,hardware,Graphics / Video / Audio / Virtual Reality
+TLA+,java | tla+ | eclipse | ocaml | smt,formal methods | algorithms,Programming Languages and Development Tools
+UCSC Xena,javascript | python | clojure | react | jvm,bioinformatics | data visualization | web applications | cancer | genomics,Science and Medicine
+VideoLAN,c | c++ | go | vue.js,multimedia | audio | video | 3d | vr,Graphics / Video / Audio / Virtual Reality
+ViSP,c/c++,robotics | computer vision,Graphics / Video / Audio / Virtual Reality
+vitrivr,java | angularjs | spark | grpc,retrieval | multimedia | video | audio | 3d,Data and Databases
+webpack,javascript | webdevelopment | html5/css3 | node.js | webassembly,tooling | toolchains | compilers | parser | web performance,Programming Languages and Development Tools
+Wikimedia Foundation,php | javascript | rubyonrails | android | reactjs,wikipedia | wikimedia | mediawiki | web | education,Web
+WorldBrain.io - Verifying the Internet,react | javascript | browserextension | datproject,search | fake-news | decentralization | misinformation | bookmarking,End User Applications
+X.org Foundation,opengl | vulkan | x11 | wayland | opencl,graphic stack | 3d acceleration | 2d acceleration | media acceleration | windowing system,Graphics / Video / Audio / Virtual Reality
+Xapian Search Engine Library,c++ | unicode | swig | linux | golang,search | information retrieval | machine learning | linguistics | indexing,Data and Databases
+XBMC Foundation,python | c/c++ | github | mysql,home theater | audio | video,Graphics / Video / Audio / Virtual Reality
+Xi Editor Project,rust | swift,text editing | ide,End User Applications
+xpra.org,python | javascript | compression | remoteaccess | cython,graphics | remote access,End User Applications
+XWiki,java | javascript | html5 | css3 | velocity,web development | wiki | platform | web applications | structured data,Web
+Zulip,python | django | javascript | reactnative | electron,web development | team chat | mobile applications | visual design,Social / Communications

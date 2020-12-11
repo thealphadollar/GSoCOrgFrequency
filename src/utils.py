@@ -9,7 +9,7 @@ DATA_DIR = os.path.join(
     os.path.dirname(
         os.path.realpath(__file__)),
     '..',
-    'data')
+    'docs')
 
 ROOT_DIR = os.path.join(
     os.path.dirname(
@@ -38,7 +38,7 @@ def save_csv(data_dict, year="allyears"):
 
 def process_all_year_data(all_year_data, end_year):
     processed_data = {}
-    for year in range(START_YEAR, end_year):
+    for year in range(START_YEAR, end_year+1):
         cur_year_data = all_year_data[year]
         for key in cur_year_data.keys():
             if processed_data.get(key, None) is None:
@@ -55,13 +55,19 @@ def process_all_year_data(all_year_data, end_year):
                     technologies = processed_data[key]['Technologies'].split(" | ")
                     technologies.extend(cur_year_data[key].get('technologies', '').split(" | "))
                     technologies = list(set(technologies))
-                    technologies.remove('')
+                    try:
+                        technologies.remove('')
+                    except ValueError:
+                        pass
                     processed_data[key]['Technologies'] = ' | '.join(technologies)
                 if cur_year_data[key].get('topics', ''):
                     topics = processed_data[key]['Topics'].split(" | ")
                     topics.extend(cur_year_data[key].get('topics', '').split(" | "))
                     topics = list(set(topics))
-                    topics.remove('')
+                    try:
+                        topics.remove('')
+                    except ValueError:
+                        pass
                     processed_data[key]['Topics'] = ' | '.join(topics)
                 if cur_year_data[key].get('category', ''):
                     if processed_data[key]['Categories']:
@@ -79,7 +85,7 @@ def update_readme(all_year_data):
             all_year_data[i][key] = str(all_year_data[i][key]).replace("|", " ")
     all_year_data.sort(key=lambda x: x['Name'].lower())
     markdown_table = Tomark.table(all_year_data)
-    with open(os.path.join(ROOT_DIR, 'Organisation Data.md'), 'w') as f:
+    with open(os.path.join(DATA_DIR, 'README.md'), 'w') as f:
         f.writelines(markdown_table)
 
 def create_key(org_name):

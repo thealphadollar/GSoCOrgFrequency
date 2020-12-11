@@ -11,7 +11,7 @@ def scrape_from_2016(soup):
     all_org_data = {}
     orgs = soup.findAll('li', attrs={'class': 'organization-card__container'})
     for ind, org in enumerate(orgs):
-        print("DEBUG: Scraped detail for {}/{} orgs".format(ind, len(orgs)), end="\r")
+        print("DEBUG: Scraped details for {}/{} orgs".format(ind, len(orgs)), end="\r")
         link = org.find('a', attrs={'class': 'organization-card__link'})
         org_name = org['aria-label']
         org_link = ROOT_URL + link['href']
