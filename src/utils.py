@@ -83,7 +83,7 @@ def update_readme(all_year_data):
     all_year_data.sort(key=lambda x: x['Name'].lower())
     markdown_table = Tomark.table(all_year_data)
     with open(os.path.join(DATA_DIR, 'README.md'), 'w') as f:
-        f.writelines("More information and year-wise data available at https://github.com/thealphadollar/GSoCOrgFrequency/tree/main/docs\n\n")
+        f.writelines("More information and year-wise data available at [thealphadollar/GSoCOrgFrequency](https://github.com/thealphadollar/GSoCOrgFrequency).\n\n")
         f.writelines(markdown_table)
 
 def create_key(org_name):
