@@ -23,12 +23,13 @@ def load_year_data(year):
             reader = DictReader(f)
             for row in reader:
                 year_data[create_key(row['name'])] = row
+        print("INFO: Loaded {} data from CSV file".format(year))
         return year_data
     except FileNotFoundError:
+        print("DEBUG: Failed to load {} data from CSV file".format(year))
         return None
 
 def save_csv(data_dict, year="allyears"):
-    print(data_dict)
     with open(os.path.join(DATA_DIR, '{}.csv'.format(str(year))), 'w') as f:
         values = list(data_dict.values())
         writer = DictWriter(f, values[0].keys())
