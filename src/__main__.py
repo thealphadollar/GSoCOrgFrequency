@@ -20,7 +20,7 @@ def main():
     all_year_data = process_all_year_data(all_year_data, now.year)
     save_csv(all_year_data)
     print("INFO: All years data added to CSV in docs folder")
-    update_readme(all_year_data)
+    update_readme(all_year_data, now.year)
     print("INFO: Updated README.md in docs folder with latest information!")
 
 if __name__ == "__main__":

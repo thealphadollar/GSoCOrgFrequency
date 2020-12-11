@@ -74,7 +74,7 @@ def process_all_year_data(all_year_data, end_year):
                 processed_data[key]['Latest Year'] = year
     return processed_data
 
-def update_readme(all_year_data):
+def update_readme(all_year_data, year):
     all_year_data = list(all_year_data.values())
     for i in range(len(all_year_data)):
         for key in all_year_data[i].keys():
@@ -83,7 +83,7 @@ def update_readme(all_year_data):
     all_year_data.sort(key=lambda x: x['Name'].lower())
     markdown_table = Tomark.table(all_year_data)
     with open(os.path.join(DATA_DIR, 'README.md'), 'w') as f:
-        f.writelines("More information and year-wise data available at [thealphadollar/GSoCOrgFrequency](https://github.com/thealphadollar/GSoCOrgFrequency).\n\n")
+        f.writelines("The following table contains the organisations that have been part of Google Summer of Code at least once from 2009 to {} - number of times they have participated, technologies they use, topics they work on, GSoC category, and the latest GSoC year they participated in.\n\nMore information and year-wise data available at [thealphadollar/GSoCOrgFrequency](https://github.com/thealphadollar/GSoCOrgFrequency).\n\n".format(year))
         f.writelines(markdown_table)
 
 def create_key(org_name):

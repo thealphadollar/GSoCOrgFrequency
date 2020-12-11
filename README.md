@@ -13,6 +13,8 @@
 
 > List of GSoC organisations with number of times they have been selected, techonologies, topics, etc.
 
+The folder `/docs` contains CSV files with data for each year and combined data for all years from 2009.
+
 ### 🏠 [Homepage](https://thealphadollar.me/GSoCOrgFrequency/)
 
 ## Install
@@ -25,6 +27,8 @@ pipenv install
 ```
 
 ## Usage
+
+To generate the data with latest organisations, please run the following command. It is advisable to run the following command after the month of October - once archive for the year has been generated.
 
 ```sh
 python3 src
