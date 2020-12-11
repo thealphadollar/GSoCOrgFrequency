@@ -34,7 +34,7 @@ python3 src
 👤 **thealphadollar**
 
 * Website: [thealphadollar.me](https://thealphadollar.me)
-* Twitter: [@thealphadollar\_](https://twitter.com/thealphadollar_)
+* Twitter: [@thealphadollar_](https://twitter.com/thealphadollar_)
 * Github: [@thealphadollar](https://github.com/thealphadollar)
 * LinkedIn: [@thealphadollar](https://linkedin.com/in/thealphadollar)
 
