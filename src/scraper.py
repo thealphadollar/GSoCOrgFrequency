@@ -2,7 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-from const import NEW_FORMAT_DIVISION, NEW_FORMAT_LINK, OLD_FORMAT_LINK, ROOT_URL, TO_REPLACE
+from const import (NEW_FORMAT_DIVISION, NEW_FORMAT_LINK, OLD_FORMAT_LINK,
+                   ROOT_URL, TO_REPLACE)
 from utils import create_key
 
 
@@ -70,9 +71,9 @@ def scrape_year_data(year):
     soup = BeautifulSoup(html, 'html.parser')
 
     if year < NEW_FORMAT_DIVISION:
-        scrape_before_2016(soup)
+        return scrape_before_2016(soup)
     else:
-        scrape_from_2016(soup)
+        return scrape_from_2016(soup)
 
 if __name__ == "__main__":
     scrape_year_data(2015)
