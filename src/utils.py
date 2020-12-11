@@ -47,7 +47,7 @@ def process_all_year_data(all_year_data, end_year):
                 processed_data[key]['Count'] = 1
                 processed_data[key]['Technologies'] = cur_year_data[key].get('technologies', '')
                 processed_data[key]['Topics'] = cur_year_data[key].get('topics', '')
-                processed_data[key]['Categories'] = cur_year_data[key].get('category', '')
+                processed_data[key]['Category'] = cur_year_data[key].get('category', '')
                 processed_data[key]['Latest Year'] = year
             else:
                 processed_data[key]['Count'] += 1
@@ -70,10 +70,7 @@ def process_all_year_data(all_year_data, end_year):
                         pass
                     processed_data[key]['Topics'] = ' | '.join(topics)
                 if cur_year_data[key].get('category', ''):
-                    if processed_data[key]['Categories']:
-                        processed_data[key]['Categories'] = processed_data[key]['Categories'] + " | " + cur_year_data[key].get('category', '')
-                    else:
-                        processed_data[key]['Categories'] = cur_year_data[key].get('category', '')
+                    processed_data[key]['Category'] = cur_year_data[key].get('category', '')
                 processed_data[key]['Latest Year'] = year
     return processed_data
 
