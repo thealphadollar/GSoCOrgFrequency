@@ -42,6 +42,10 @@ python3 src
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/thealphadollar/GSoCOrgFrequency/issues). 
 
+## References
+
+The project has been motivated from [GSoC-Organisation-Scraper](https://github.com/rohithasrk/GSoC-Organisation-Scraper) by @harshit698 and has used code from the same.
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
