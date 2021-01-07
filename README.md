@@ -9,6 +9,8 @@
   <a href="https://github.com/thealphadollar_" target="_blank">
     <img alt="Github: thealphadollar_" src="https://img.shields.io/github/followers/thealphadollar?label=Follow&style=social" />
   </a>
+  <iframe src="https://ghbtns.com/github-btn.html?user=thealphadollar&repo=GSoCOrgFrequency&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+  <iframe src="https://ghbtns.com/github-btn.html?user=thealphadollar&repo=GSoCOrgFrequency&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 </p>
 
 > List of GSoC organisations with number of times they have been selected, techonologies, topics, etc.
