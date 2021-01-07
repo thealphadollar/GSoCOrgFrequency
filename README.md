@@ -6,11 +6,15 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://github.com/thealphadollar_" target="_blank">
-    <img alt="Github: thealphadollar_" src="https://img.shields.io/github/followers/thealphadollar?label=Follow&style=social" />
+  <a href="https://github.com/thealphadollar" target="_blank">
+    <img alt="Github: thealphadollar" src="https://img.shields.io/github/followers/thealphadollar?label=Follow&style=social" />
   </a>
-  <iframe src="https://ghbtns.com/github-btn.html?user=thealphadollar&repo=GSoCOrgFrequency&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
-  <iframe src="https://ghbtns.com/github-btn.html?user=thealphadollar&repo=GSoCOrgFrequency&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+  <a href="https://github.com/thealphadollar/GSoCOrgFrequency">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/thealphadollar/GSoCOrgFrequency?style=social">
+  </a>
+  <a href="https://github.com/thealphadollar/GSoCOrgFrequency" target="_blank">
+    <img alt="Github Repo watchers" src="https://img.shields.io/github/watchers/thealphadollar/GSoCOrgFrequency?style=social">
+  </a>
 </p>
 
 > List of GSoC organisations with number of times they have been selected, techonologies, topics, etc.
