@@ -1,0 +1,47 @@
+# This workflow will generate the stats every year
+
+name: Generate Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 15/10 10 *' # Every 15th and 25th of October
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2.3.4
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install pipenv
+        pipenv lock --requirements > requirements.txt
+        pip install -r requirements.txt
+    
+    - name: generate statistics
+      run: |
+        python src
+        
+    - name: Git Auto Commit
+      id: auto-commit-action
+      uses: stefanzweifel/git-auto-commit-action@v4.9.1
+      with:
+        commit_message: Genrate statistics
+        commit_options: '--no-verify'
+        file_pattern: docs/*
+        
+    
+    - name: "Run if changes have been detected"
+      if: steps.auto-commit-action.outputs.changes_detected == 'true'
+      run: echo "Changes!"
+
+    - name: "Run if no changes have been detected"
+      if: steps.auto-commit-action.outputs.changes_detected == 'false'
+      run: echo "No Changes!"
