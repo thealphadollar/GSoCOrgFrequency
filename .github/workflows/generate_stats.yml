@@ -27,7 +27,7 @@ jobs:
     
     - name: generate statistics
       run: |
-        python src
+        python src || python src || echo "failed to generate stats"
         
     - name: Git Auto Commit
       id: auto-commit-action
