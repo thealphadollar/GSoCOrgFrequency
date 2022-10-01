@@ -20,6 +20,7 @@ def load_year_data(year):
     try:
         year_data = {}
         with open(os.path.join(DATA_DIR, '{}.csv'.format(str(year))), 'r') as f:
+            raiseErrorIfFileEmpty(f)
             reader = DictReader(f)
             for row in reader:
                 year_data[create_key(row['name'])] = row
@@ -88,3 +89,9 @@ def update_readme(all_year_data, year):
 
 def create_key(org_name):
     return ''.join(filter(CHARATER_WHITELIST.__contains__, org_name.lower()))
+
+def raiseErrorIfFileEmpty(f):
+    f.seek(0)
+    if not f.read(1):
+        raise FileNotFoundError
+    f.seek(0)
