@@ -24,16 +24,18 @@ def scrape_from_2016(year):
         except WebDriverException as e:
             print(f"Error accessing the base URL {base_url}: {e}")
             return {}
-
-        while True:
-            try:
-                WebDriverWait(driver, 4).until(
-                    EC.presence_of_all_elements_located((By.CLASS_NAME, "name"))
+        
+        try:
+            WebDriverWait(driver, 4).until(
+                EC.presence_of_all_elements_located((By.CLASS_NAME, "name"))
                 )
-            except TimeoutException:
-                print("Timeout waiting for organization names to load.")
-                break
-
+                   
+        except TimeoutException:
+            print("Timeout waiting for organization names to load.")
+        
+        current_num = 0;        
+        
+        while True:
             # Fetch organization names and links
             try:
                 elements_names = driver.find_elements(By.CLASS_NAME, "name")
@@ -59,8 +61,13 @@ def scrape_from_2016(year):
                         technologies = str(technologies).replace(",", " | ")
                         topics = str(topics).replace(",", " | ")
 
-                        print(name, technologies, topics)
-
+                        # 
+                        # print(name, technologies, topics)
+                        
+                        # Counter
+                        current_num+=1
+                        print(f"\r{current_num}", end="", flush=True)
+                                                
                         all_org_data[create_key(name)] = {
                             "name": name,
                             "technologies": technologies,
@@ -74,11 +81,11 @@ def scrape_from_2016(year):
                 next_button = driver.find_element(By.CLASS_NAME, "mat-mdc-paginator-navigation-next")
                 is_disabled = next_button.get_attribute("disabled")
             except NoSuchElementException:
-                print("Next button not found. Assuming last page.")
+                print("\nNext button not found. Assuming last page.")
                 break
 
             if is_disabled:
-                print("Reached the last page.")
+                print("\nReached the last page.")
                 break
 
             # Click the "Next" button and wait for the page to refresh
@@ -131,7 +138,6 @@ def scrape_details(url):
 # if __name__ == "__main__":
 #     try:
 #         data = scrape_from_2016(2023)
-#         print(data)
 #     except Exception as e:
 #         print(f"Unexpected error: {e}")
 
