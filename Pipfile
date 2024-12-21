@@ -10,6 +10,7 @@ yapf = "*"
 requests = "*"
 bs4 = "*"
 tomark = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.8"
